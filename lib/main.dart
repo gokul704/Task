@@ -15,5 +15,5 @@ Future<void> main() async {
       child: MaterialApp(
           title: 'Demo',
           debugShowCheckedModeBanner: false,
-          home: token == Null ? const LoginScreen() : const Dashboard())));
+          home: token == null ? const LoginScreen() : const Dashboard())));
 }
