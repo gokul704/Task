@@ -60,42 +60,7 @@ class _LoginScreenState extends State<LoginScreen> {
                     const SizedBox(
                       height: 60,
                     ),
-                    customText(
-                        txt: "Enter via social networks",
-                        style: const TextStyle(
-                          fontWeight: FontWeight.normal,
-                          fontSize: 14,
-                        )),
-                    const SizedBox(
-                      height: 30,
-                    ),
-                    Row(
-                      children: [
-                        InkWell(
-                          child: InkwellButtons(
-                              image: Image.asset("images/img3.png")),
-                          onTap: () {},
-                        ),
-                        const SizedBox(width: 37),
-                        InkWell(
-                          child: InkwellButtons(
-                              image: Image.asset("images/img4.png")),
-                          onTap: () {},
-                        ),
-                      ],
-                    ),
-                    const SizedBox(
-                      height: 50,
-                    ),
-                    customText(
-                        txt: "or login with email",
-                        style: const TextStyle(
-                          fontWeight: FontWeight.normal,
-                          fontSize: 14,
-                        )),
-                    const SizedBox(
-                      height: 30,
-                    ),
+
                     const SizedBox(height: 20),
                     TextField(
                       controller: usernameController,
